@@ -1,20 +1,61 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import "react-native-gesture-handler";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import BrowserScreen from "./screens/BrowserScreen";
+import Navigations from "./components/Navigations";
+import { store } from "./app/store";
+import { Provider } from "react-redux";
+import TrackPlayerContextProvider from "./contexts/TrackPlayerContext";
+import HomeScreenContextProvider from "./contexts/HomeScreenContext";
+import { memo } from "react";
+import RootScreen from "./screens/RootScreen";
+import AudioPlayer from "./components/AudioPlayer";
+import GlobalContextProvider from "./contexts/GlobalContext";
+import Loader from "./components/Loader";
+import ArtistScreen from "./screens/ArtistScreen";
 
-export default function App() {
+const Stack = createNativeStackNavigator();
+
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <GlobalContextProvider>
+        <NavigationContainer>
+          <Stack.Navigator initialRouteName="Artists">
+            <Stack.Screen
+              name="Root"
+              component={RootScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="Browser"
+              component={BrowserScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="AudioPlayer"
+              component={AudioPlayer}
+              options={{
+                presentation: "modal",
+                // headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="Artists"
+              component={ArtistScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
+          </Stack.Navigator>
+          <Navigations />
+        </NavigationContainer>
+      </GlobalContextProvider>
+    </Provider>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+};
+export default App;
