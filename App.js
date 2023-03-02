@@ -21,14 +21,7 @@ const App = () => {
     <Provider store={store}>
       <GlobalContextProvider>
         <NavigationContainer>
-          <Stack.Navigator initialRouteName="Artists">
-            <Stack.Screen
-              name="Root"
-              component={RootScreen}
-              options={{
-                headerShown: false,
-              }}
-            />
+          <Stack.Navigator initialRouteName="Browser">
             <Stack.Screen
               name="Browser"
               component={BrowserScreen}

@@ -11,6 +11,7 @@ import PlaylistsScreen from "./PlaylistsScreen";
 import { useNavigation } from "@react-navigation/native";
 import HomeScreenContextProvider from "../contexts/HomeScreenContext";
 import AudioContextProvider, { AudioContext } from "../contexts/AudioContext";
+import * as Icons from "react-native-heroicons/solid";
 
 const Stack = createNativeStackNavigator();
 
@@ -55,19 +56,15 @@ const RootScreen = () => {
             {/* Search Input */}
             <View className="">
               <View className="flex-row space-x-2 items-center bg-[#242636] px-3 py-2 rounded-xl">
-                <AntDesign
-                  name="search1"
-                  size={22}
-                  color="#A1A1AD"
-                  className=""
-                />
+                <Icons.MagnifyingGlassIcon color={"#A1A1AD"} />
                 <TextInput
                   className="flex-1 text-white"
                   placeholder="Search a music name"
                   placeholderTextColor={"#727385"}
                   cursorColor={"#727385"}
                 />
-                <Ionicons name="options-outline" size={22} color="#A1A1AD" />
+
+                <Icons.AdjustmentsVerticalIcon color="#A1A1AD" />
               </View>
             </View>
           </View>

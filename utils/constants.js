@@ -40,7 +40,7 @@ export const avatar =
 export const routes = [
   { name: "Browser", route: "Browser", icon: "library-music" },
   { name: "Artists", route: "Artists", icon: "people-alt" },
-  { name: "Root", route: "Root", icon: "home-filled" },
+  // { name: "Root", route: "Root", icon: "home-filled" },
   { name: "Genres", route: "Genres", icon: "music-note" },
   { name: "My Music", route: "MyMusic", icon: "headset" },
 ];
@@ -1319,5 +1319,732 @@ export const topTracksOfArtist = {
         uri: "spotify:track:59u8Iu6cAugFqtA1avGFRT",
       },
     ],
+  },
+};
+
+export const artistsList = {
+  data: {
+    artists: {
+      href: "https://api.spotify.com/v1/search?query=genre%3A%22vietnamese%22&type=artist&market=VN&offset=0&limit=10",
+      items: [
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/1LEtM3AleYg1xabW6CRkpi",
+          },
+          followers: {
+            href: null,
+            total: 3010763,
+          },
+          genres: [
+            "indie viet",
+            "v-pop",
+            "vietnamese hip hop",
+            "vietnamese trap",
+          ],
+          href: "https://api.spotify.com/v1/artists/1LEtM3AleYg1xabW6CRkpi",
+          id: "1LEtM3AleYg1xabW6CRkpi",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebf95b80329ff91f376acd43d9",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174f95b80329ff91f376acd43d9",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178f95b80329ff91f376acd43d9",
+              width: 160,
+            },
+          ],
+          name: "Đen",
+          popularity: 61,
+          type: "artist",
+          uri: "spotify:artist:1LEtM3AleYg1xabW6CRkpi",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/3diftVOq7aEIebXKkC34oR",
+          },
+          followers: {
+            href: null,
+            total: 267174,
+          },
+          genres: [
+            "indie viet",
+            "v-pop",
+            "vietnamese hip hop",
+            "vietnamese melodic rap",
+          ],
+          href: "https://api.spotify.com/v1/artists/3diftVOq7aEIebXKkC34oR",
+          id: "3diftVOq7aEIebXKkC34oR",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebbde8a1370ee2b335a8f967a5",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174bde8a1370ee2b335a8f967a5",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178bde8a1370ee2b335a8f967a5",
+              width: 160,
+            },
+          ],
+          name: "tlinh",
+          popularity: 60,
+          type: "artist",
+          uri: "spotify:artist:3diftVOq7aEIebXKkC34oR",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/5dfZ5uSmzR7VQK0udbAVpf",
+          },
+          followers: {
+            href: null,
+            total: 4106445,
+          },
+          genres: ["v-pop", "vietnamese melodic rap"],
+          href: "https://api.spotify.com/v1/artists/5dfZ5uSmzR7VQK0udbAVpf",
+          id: "5dfZ5uSmzR7VQK0udbAVpf",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5eb1036554ddc5f791a4f5dcfc3",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab676161000051741036554ddc5f791a4f5dcfc3",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f1781036554ddc5f791a4f5dcfc3",
+              width: 160,
+            },
+          ],
+          name: "Sơn Tùng M-TP",
+          popularity: 61,
+          type: "artist",
+          uri: "spotify:artist:5dfZ5uSmzR7VQK0udbAVpf",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/57g2v7gJZepcwsuwssIfZs",
+          },
+          followers: {
+            href: null,
+            total: 1511829,
+          },
+          genres: [
+            "indie viet",
+            "rock viet",
+            "v-pop",
+            "vietnamese singer-songwriter",
+          ],
+          href: "https://api.spotify.com/v1/artists/57g2v7gJZepcwsuwssIfZs",
+          id: "57g2v7gJZepcwsuwssIfZs",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5eb9896fc9a2e28384f2d705c45",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab676161000051749896fc9a2e28384f2d705c45",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f1789896fc9a2e28384f2d705c45",
+              width: 160,
+            },
+          ],
+          name: "Vũ.",
+          popularity: 60,
+          type: "artist",
+          uri: "spotify:artist:57g2v7gJZepcwsuwssIfZs",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/1zSv9qZANOWB4HRE8sxeTL",
+          },
+          followers: {
+            href: null,
+            total: 303937,
+          },
+          genres: [
+            "vietnamese hip hop",
+            "vietnamese melodic rap",
+            "vietnamese trap",
+          ],
+          href: "https://api.spotify.com/v1/artists/1zSv9qZANOWB4HRE8sxeTL",
+          id: "1zSv9qZANOWB4HRE8sxeTL",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebfaa4c2895c21a85b33e60801",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174faa4c2895c21a85b33e60801",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178faa4c2895c21a85b33e60801",
+              width: 160,
+            },
+          ],
+          name: "RPT MCK",
+          popularity: 57,
+          type: "artist",
+          uri: "spotify:artist:1zSv9qZANOWB4HRE8sxeTL",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/5HZtdKfC4xU0wvhEyYDWiY",
+          },
+          followers: {
+            href: null,
+            total: 396738,
+          },
+          genres: ["v-pop", "vietnamese hip hop"],
+          href: "https://api.spotify.com/v1/artists/5HZtdKfC4xU0wvhEyYDWiY",
+          id: "5HZtdKfC4xU0wvhEyYDWiY",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5eb17e2d498df7cbd7c43bd5e6a",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab6761610000517417e2d498df7cbd7c43bd5e6a",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f17817e2d498df7cbd7c43bd5e6a",
+              width: 160,
+            },
+          ],
+          name: "HIEUTHUHAI",
+          popularity: 59,
+          type: "artist",
+          uri: "spotify:artist:5HZtdKfC4xU0wvhEyYDWiY",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/6zUWZmyi5MLOEynQ5wCI5f",
+          },
+          followers: {
+            href: null,
+            total: 839402,
+          },
+          genres: ["indie viet", "v-pop", "vietnamese hip hop"],
+          href: "https://api.spotify.com/v1/artists/6zUWZmyi5MLOEynQ5wCI5f",
+          id: "6zUWZmyi5MLOEynQ5wCI5f",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5eb82055f0d7880dc8c73edc5a0",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab6761610000517482055f0d7880dc8c73edc5a0",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f17882055f0d7880dc8c73edc5a0",
+              width: 160,
+            },
+          ],
+          name: "Da LAB",
+          popularity: 59,
+          type: "artist",
+          uri: "spotify:artist:6zUWZmyi5MLOEynQ5wCI5f",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/6TITnFVRcl0AcZ4syE7Toe",
+          },
+          followers: {
+            href: null,
+            total: 544056,
+          },
+          genres: ["vietnamese hip hop"],
+          href: "https://api.spotify.com/v1/artists/6TITnFVRcl0AcZ4syE7Toe",
+          id: "6TITnFVRcl0AcZ4syE7Toe",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5eb00ece52e50b41c7d6192cc26",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab6761610000517400ece52e50b41c7d6192cc26",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f17800ece52e50b41c7d6192cc26",
+              width: 160,
+            },
+          ],
+          name: "Low G",
+          popularity: 58,
+          type: "artist",
+          uri: "spotify:artist:6TITnFVRcl0AcZ4syE7Toe",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/2xK6qcvfXuFFbU0NL95aeo",
+          },
+          followers: {
+            href: null,
+            total: 401066,
+          },
+          genres: ["v-pop", "vietnamese singer-songwriter"],
+          href: "https://api.spotify.com/v1/artists/2xK6qcvfXuFFbU0NL95aeo",
+          id: "2xK6qcvfXuFFbU0NL95aeo",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebb20e2fe7ba45e11a36604b01",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174b20e2fe7ba45e11a36604b01",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178b20e2fe7ba45e11a36604b01",
+              width: 160,
+            },
+          ],
+          name: "Thịnh Suy",
+          popularity: 57,
+          type: "artist",
+          uri: "spotify:artist:2xK6qcvfXuFFbU0NL95aeo",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/3rjcQ5VIWCN4q7UFetzdeO",
+          },
+          followers: {
+            href: null,
+            total: 649714,
+          },
+          genres: ["v-pop", "vietnamese hip hop", "vietnamese melodic rap"],
+          href: "https://api.spotify.com/v1/artists/3rjcQ5VIWCN4q7UFetzdeO",
+          id: "3rjcQ5VIWCN4q7UFetzdeO",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebde3d3210433dd11c07678420",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174de3d3210433dd11c07678420",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178de3d3210433dd11c07678420",
+              width: 160,
+            },
+          ],
+          name: "JustaTee",
+          popularity: 57,
+          type: "artist",
+          uri: "spotify:artist:3rjcQ5VIWCN4q7UFetzdeO",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/6TITnFVRcl0AcZ4syE7Toe",
+          },
+          followers: {
+            href: null,
+            total: 544056,
+          },
+          genres: ["vietnamese hip hop"],
+          href: "https://api.spotify.com/v1/artists/6TITnFVRcl0AcZ4syE7Toe",
+          id: "6TITnFVRcl0AcZ4syE7Toe",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5eb00ece52e50b41c7d6192cc26",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab6761610000517400ece52e50b41c7d6192cc26",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f17800ece52e50b41c7d6192cc26",
+              width: 160,
+            },
+          ],
+          name: "Low G",
+          popularity: 58,
+          type: "artist",
+          uri: "spotify:artist:6TITnFVRcl0AcZ4syE7Toe",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/2xK6qcvfXuFFbU0NL95aeo",
+          },
+          followers: {
+            href: null,
+            total: 401066,
+          },
+          genres: ["v-pop", "vietnamese singer-songwriter"],
+          href: "https://api.spotify.com/v1/artists/2xK6qcvfXuFFbU0NL95aeo",
+          id: "2xK6qcvfXuFFbU0NL95aeo",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebb20e2fe7ba45e11a36604b01",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174b20e2fe7ba45e11a36604b01",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178b20e2fe7ba45e11a36604b01",
+              width: 160,
+            },
+          ],
+          name: "Thịnh Suy",
+          popularity: 57,
+          type: "artist",
+          uri: "spotify:artist:2xK6qcvfXuFFbU0NL95aeo",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/3rjcQ5VIWCN4q7UFetzdeO",
+          },
+          followers: {
+            href: null,
+            total: 649714,
+          },
+          genres: ["v-pop", "vietnamese hip hop", "vietnamese melodic rap"],
+          href: "https://api.spotify.com/v1/artists/3rjcQ5VIWCN4q7UFetzdeO",
+          id: "3rjcQ5VIWCN4q7UFetzdeO",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebde3d3210433dd11c07678420",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174de3d3210433dd11c07678420",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178de3d3210433dd11c07678420",
+              width: 160,
+            },
+          ],
+          name: "JustaTee",
+          popularity: 57,
+          type: "artist",
+          uri: "spotify:artist:3rjcQ5VIWCN4q7UFetzdeO",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/5HZtdKfC4xU0wvhEyYDWiY",
+          },
+          followers: {
+            href: null,
+            total: 396738,
+          },
+          genres: ["v-pop", "vietnamese hip hop"],
+          href: "https://api.spotify.com/v1/artists/5HZtdKfC4xU0wvhEyYDWiY",
+          id: "5HZtdKfC4xU0wvhEyYDWiY",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5eb17e2d498df7cbd7c43bd5e6a",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab6761610000517417e2d498df7cbd7c43bd5e6a",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f17817e2d498df7cbd7c43bd5e6a",
+              width: 160,
+            },
+          ],
+          name: "HIEUTHUHAI",
+          popularity: 59,
+          type: "artist",
+          uri: "spotify:artist:5HZtdKfC4xU0wvhEyYDWiY",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/6zUWZmyi5MLOEynQ5wCI5f",
+          },
+          followers: {
+            href: null,
+            total: 839402,
+          },
+          genres: ["indie viet", "v-pop", "vietnamese hip hop"],
+          href: "https://api.spotify.com/v1/artists/6zUWZmyi5MLOEynQ5wCI5f",
+          id: "6zUWZmyi5MLOEynQ5wCI5f",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5eb82055f0d7880dc8c73edc5a0",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab6761610000517482055f0d7880dc8c73edc5a0",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f17882055f0d7880dc8c73edc5a0",
+              width: 160,
+            },
+          ],
+          name: "Da LAB",
+          popularity: 59,
+          type: "artist",
+          uri: "spotify:artist:6zUWZmyi5MLOEynQ5wCI5f",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/6TITnFVRcl0AcZ4syE7Toe",
+          },
+          followers: {
+            href: null,
+            total: 544056,
+          },
+          genres: ["vietnamese hip hop"],
+          href: "https://api.spotify.com/v1/artists/6TITnFVRcl0AcZ4syE7Toe",
+          id: "6TITnFVRcl0AcZ4syE7Toe",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5eb00ece52e50b41c7d6192cc26",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab6761610000517400ece52e50b41c7d6192cc26",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f17800ece52e50b41c7d6192cc26",
+              width: 160,
+            },
+          ],
+          name: "Low G",
+          popularity: 58,
+          type: "artist",
+          uri: "spotify:artist:6TITnFVRcl0AcZ4syE7Toe",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/2xK6qcvfXuFFbU0NL95aeo",
+          },
+          followers: {
+            href: null,
+            total: 401066,
+          },
+          genres: ["v-pop", "vietnamese singer-songwriter"],
+          href: "https://api.spotify.com/v1/artists/2xK6qcvfXuFFbU0NL95aeo",
+          id: "2xK6qcvfXuFFbU0NL95aeo",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebb20e2fe7ba45e11a36604b01",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174b20e2fe7ba45e11a36604b01",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178b20e2fe7ba45e11a36604b01",
+              width: 160,
+            },
+          ],
+          name: "Thịnh Suy",
+          popularity: 57,
+          type: "artist",
+          uri: "spotify:artist:2xK6qcvfXuFFbU0NL95aeo",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/3rjcQ5VIWCN4q7UFetzdeO",
+          },
+          followers: {
+            href: null,
+            total: 649714,
+          },
+          genres: ["v-pop", "vietnamese hip hop", "vietnamese melodic rap"],
+          href: "https://api.spotify.com/v1/artists/3rjcQ5VIWCN4q7UFetzdeO",
+          id: "3rjcQ5VIWCN4q7UFetzdeO",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebde3d3210433dd11c07678420",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174de3d3210433dd11c07678420",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178de3d3210433dd11c07678420",
+              width: 160,
+            },
+          ],
+          name: "JustaTee",
+          popularity: 57,
+          type: "artist",
+          uri: "spotify:artist:3rjcQ5VIWCN4q7UFetzdeO",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/6TITnFVRcl0AcZ4syE7Toe",
+          },
+          followers: {
+            href: null,
+            total: 544056,
+          },
+          genres: ["vietnamese hip hop"],
+          href: "https://api.spotify.com/v1/artists/6TITnFVRcl0AcZ4syE7Toe",
+          id: "6TITnFVRcl0AcZ4syE7Toe",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5eb00ece52e50b41c7d6192cc26",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab6761610000517400ece52e50b41c7d6192cc26",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f17800ece52e50b41c7d6192cc26",
+              width: 160,
+            },
+          ],
+          name: "Low G",
+          popularity: 58,
+          type: "artist",
+          uri: "spotify:artist:6TITnFVRcl0AcZ4syE7Toe",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/2xK6qcvfXuFFbU0NL95aeo",
+          },
+          followers: {
+            href: null,
+            total: 401066,
+          },
+          genres: ["v-pop", "vietnamese singer-songwriter"],
+          href: "https://api.spotify.com/v1/artists/2xK6qcvfXuFFbU0NL95aeo",
+          id: "2xK6qcvfXuFFbU0NL95aeo",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebb20e2fe7ba45e11a36604b01",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174b20e2fe7ba45e11a36604b01",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178b20e2fe7ba45e11a36604b01",
+              width: 160,
+            },
+          ],
+          name: "Thịnh Suy",
+          popularity: 57,
+          type: "artist",
+          uri: "spotify:artist:2xK6qcvfXuFFbU0NL95aeo",
+        },
+        {
+          external_urls: {
+            spotify: "https://open.spotify.com/artist/3rjcQ5VIWCN4q7UFetzdeO",
+          },
+          followers: {
+            href: null,
+            total: 649714,
+          },
+          genres: ["v-pop", "vietnamese hip hop", "vietnamese melodic rap"],
+          href: "https://api.spotify.com/v1/artists/3rjcQ5VIWCN4q7UFetzdeO",
+          id: "3rjcQ5VIWCN4q7UFetzdeO",
+          images: [
+            {
+              height: 640,
+              url: "https://i.scdn.co/image/ab6761610000e5ebde3d3210433dd11c07678420",
+              width: 640,
+            },
+            {
+              height: 320,
+              url: "https://i.scdn.co/image/ab67616100005174de3d3210433dd11c07678420",
+              width: 320,
+            },
+            {
+              height: 160,
+              url: "https://i.scdn.co/image/ab6761610000f178de3d3210433dd11c07678420",
+              width: 160,
+            },
+          ],
+          name: "JustaTee",
+          popularity: 57,
+          type: "artist",
+          uri: "spotify:artist:3rjcQ5VIWCN4q7UFetzdeO",
+        },
+      ],
+      limit: 10,
+      next: "https://api.spotify.com/v1/search?query=genre%3A%22vietnamese%22&type=artist&market=VN&offset=10&limit=10",
+      offset: 0,
+      previous: null,
+      total: 671,
+    },
   },
 };
